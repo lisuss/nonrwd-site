@@ -47,7 +47,18 @@ header a {
     border-radius: 6px;
 }
 
-header a:hover {
+header nav a:hover {
     color: green;
     background-color: yellow;
+}
+
+footer {
+    background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
+    margin: 0;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    text-align: right;
 }
